@@ -1,6 +1,7 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
+    "types": ["styled-components"],
     "strict": true,
     "baseUrl": "./",
     "paths": {
@@ -21,9 +22,6 @@
       ],
       "@utils/*": [
         "./src/utils/*"
-      ],
-      "@theme/*": [
-        "./src/theme/*"
       ],
     }
   }
